@@ -8,8 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--ГЛАВНОЕ МЕНЮ-->
@@ -484,7 +483,7 @@
       <div class="conteiner footer">
         <div class="footer-box box-adress">
           <a href="" class="logotype"
-            >Web<span class="partlogotype-footer">Studio</span>
+            >Web<span class="logotype__part">Studio</span>
           </a>
           <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
           <!--Связь с разработчиками сайта-->
@@ -560,7 +559,7 @@
                 type="email"
                 name="footer-form-email"
                 id="footer-form-email"
-                class="footer-form-input"
+                class="footer-form__input-text"
                 placeholder="E-mail"
                 required
               />
@@ -589,13 +588,14 @@
           <p class="text-before-modal-form">
             Оставьте свои данные, мы вам перезвоним
           </p>
+
           <form class="form">
-            <div class="form-field">
+            <div class="form__field">
               <label for="name">Имя</label>
-              <div class="field-input">
+              <div class="form__input">
                 <input
                   type="text"
-                  class="form-input"
+                  class="form__input-text"
                   name="name"
                   id="name"
                   placeholder=" "
@@ -606,11 +606,11 @@
                 </svg>
               </div>
             </div>
-            <div class="form-field">
+            <div class="form__field">
               <label for="tel">Телефон</label>
-              <div class="field-input">
+              <div class="form__input">
                 <input
-                  class="form-input"
+                  class="form__input-text"
                   type="tel"
                   name="tel"
                   id="tel"
@@ -622,12 +622,12 @@
                 </svg>
               </div>
             </div>
-            <div class="form-field">
+            <div class="form__field">
               <label for="email">Почта</label>
-              <div class="field-input">
+              <div class="form__input">
                 <input
                   type="email"
-                  class="form-input"
+                  class="form__input-text"
                   name="email"
                   id="email"
                   placeholder=" "
@@ -638,17 +638,17 @@
                 </svg>
               </div>
             </div>
-            <div class="form-field">
+            <div class="form__field">
               <label for="comment">Комментарий</label>
               <textarea
                 name="comment"
                 id="comment"
-                class="textarea"
+                class="form__textarea"
                 rows="8"
                 placeholder="Введите текст"
               ></textarea>
             </div>
-            <div class="form-field">
+            <div class="form__field">
               <label for="checkbox" class="checkbox-label">
                 <input
                   type="checkbox"
