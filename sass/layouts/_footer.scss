@@ -7,23 +7,23 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+
+  &-title {
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $button-color;
+  }
 }
 
 .join {
   padding: 0;
-}
-
-.footer-title {
-  margin: 0;
-  padding-top: 12px;
-  padding-bottom: 20px;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: $button-color;
 }
 
 .footer-link {

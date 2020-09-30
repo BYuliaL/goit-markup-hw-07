@@ -15,24 +15,24 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
-.hero-text {
-  color: $button-color;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0;
-}
+  &-text {
+    color: $button-color;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+  }
 
-.hero-button {
-  margin-top: 40px;
-  padding-right: 0px;
-  padding-left: 0px;
+  &-button {
+    margin-top: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
 .hero-button:hover {

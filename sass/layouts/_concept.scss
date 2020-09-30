@@ -1,28 +1,22 @@
-.about-work__list {
-  width: 270px;
-}
-
 .about-work {
   padding-left: 0;
 }
 
-.about-work__inf,
-.staff__position {
-  color: $primary-text-color;
-}
+.about-work__list {
+  width: 270px;
 
-.about-work .about-work__list:not(:last-child) {
-  margin-right: 30px;
-}
-
-.about-work__list::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
-  margin-bottom: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  &::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+  }
 }
 
 .icon-antenna::before {
@@ -60,4 +54,5 @@
   letter-spacing: 0.03em;
   margin-top: 10px;
   margin-bottom: 0;
+  color: $primary-text-color;
 }
