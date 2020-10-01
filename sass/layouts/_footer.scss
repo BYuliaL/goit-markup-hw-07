@@ -6,7 +6,6 @@ footer {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #2f303a;
 
   &-title {
     margin: 0;
@@ -24,36 +23,36 @@ footer {
 
 .join {
   padding: 0;
-}
 
-.footer-link {
-  background: rgba(255, 255, 255, 0.1);
-}
+  .footer-link {
+    background: rgba(255, 255, 255, 0.1);
+  }
 
-.footer-icon {
-  fill: $button-color;
+  .footer-icon {
+    fill: $button-color;
+  }
 }
 
 .box-adress {
   margin-right: 70px;
-}
 
-.footer .logotype__part {
-  color: $button-color;
-}
+  .logotype__part {
+    color: $button-color;
+  }
 
-.adress {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: $button-color;
-}
+  .adress {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: $button-color;
+  }
 
-.footer-email,
-.footer-tel {
-  color: $accent-white-color;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  text-decoration: none;
+  .footer-email,
+  .footer-tel {
+    color: $accent-white-color;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+  }
 }

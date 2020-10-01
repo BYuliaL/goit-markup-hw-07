@@ -148,7 +148,7 @@
           <h2 class="conteiner__title">Наша команда</h2>
           <ul class="list staff">
             <li class="staff__list">
-              <div class="box">
+              <div class="staff__box">
                 <img
                   src="./images/foto1.jpg"
                   alt="Игорь Демьяненко"
@@ -210,7 +210,7 @@
               </div>
             </li>
             <li class="staff__list">
-              <div class="box">
+              <div class="staff__box">
                 <img
                   src="./images/foto2.jpg"
                   alt="Ольга Репина"
@@ -272,7 +272,7 @@
               </div>
             </li>
             <li class="staff__list">
-              <div class="box">
+              <div class="staff__box">
                 <img
                   src="./images/foto3.jpg"
                   alt="Николай Тарасов"
@@ -334,7 +334,7 @@
               </div>
             </li>
             <li class="staff__list">
-              <div class="box">
+              <div class="staff__box">
                 <img
                   src="./images/foto4.jpg"
                   alt="Михаил Ермаков"
@@ -587,7 +587,7 @@
           </svg>
         </button>
         <div class="modal-form">
-          <p class="text-before-modal-form">
+          <p class="modal-form__text">
             Оставьте свои данные, мы вам перезвоним
           </p>
 
@@ -603,7 +603,7 @@
                   placeholder=" "
                   required
                 />
-                <svg class="modal__icon icon-name">
+                <svg class="form__icon icon-name">
                   <use href="./icons/sprite.svg#icon-person-black"></use>
                 </svg>
               </div>
@@ -619,7 +619,7 @@
                   placeholder=" "
                   required
                 />
-                <svg class="modal__icon icon-phone">
+                <svg class="form__icon icon-phone">
                   <use href="./icons/sprite.svg#icon-phone-black"></use>
                 </svg>
               </div>
@@ -635,7 +635,7 @@
                   placeholder=" "
                   required
                 />
-                <svg class="modal__icon icon-email">
+                <svg class="form__icon icon-email">
                   <use href="./icons/sprite.svg#icon-email-black"></use>
                 </svg>
               </div>
@@ -657,8 +657,10 @@
                   class="checkbox visually-hidden"
                   id="checkbox"
                 />
-                <span class="text-term">Соглашаюсь с рассылкой и принимаю</span>
-                <a href="" class="contract-terms">Условия договора</a>
+                <span class="form__checkbox-text"
+                  >Соглашаюсь с рассылкой и принимаю</span
+                >
+                <a href="" class="form__checkbox">Условия договора</a>
               </label>
             </div>
             <button type="submit" class="modal-button btn">Отправить</button>
